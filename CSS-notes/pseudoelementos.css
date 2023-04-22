@@ -1,0 +1,19 @@
+/* adiciona um conteúdo antes */
+li::before {
+    content: ">"; /* obrigatório, mesmo vazio */
+}
+
+/* adiciona um conteúdo depois */
+li::after {
+    content: ">"; /* obrigatório, mesmo vazio */
+}
+
+/* primeira linha de um conteúdo */
+p::first-line {
+    font-weight: bold;
+}
+
+/* primeira linha do segundo parágrafo */
+p:nth-child(2)::first-line {
+    font-weight: bold;
+}

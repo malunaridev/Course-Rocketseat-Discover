@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    
+<!-- action: para onde os dados serão submetidos. 
+     vazio: envia para a mesma página. -->
+
+<!-- method: explica como os dados trafegam.
+     Get: dados ficam na URL. Ex: pesquisa.
+     Post: dados ficam escondidos. Ex: cadastros. -->
+
+<form action="" method="">
+</form>
+
+<!-- fieldset: agrupa campos com o mesmo propósito. -->
+
+<form id="contato" action="" method="">
+    <fieldset name="inputs-contato">
+        <legend>Contato</legend>
+        <label for="name">Nome</label>
+        <input type="text">
+    </fieldset>
+</form>
+
+<!-- label: associa e identifica uma ou mais tags de entrada. -->
+
+<form>
+<label for="contato">
+    Nome completo:
+    <input type="text">
+</label>
+</form>
+
+<!-- value: já deixa algo escrito. -->
+
+<form>
+    <input type="email" value="seuemailaqui@email.com">
+</form>
+
+<!-- autocomplete: dado já utilizado com frequência. -->
+
+<form>
+    <input type="email" autocomplete="email">
+</form>
+
+<!-- autofocus: quando a página é carregada, o elemento é 
+focado automaticamente. Só pode 1 por página. -->
+
+<form >
+    <input type="text" autofocus>
+</form>
+
+<!-- Lista de vários tipos de input: -->
+
+<form>
+    <input type="text" placeholder="Digite seu texto">
+    <input type="date" placeholder="date">
+    <input type="number" placeholder="number">
+    <input type="email" placeholder="email">
+    <input type="password" placeholder="password">
+    <input type="file" placeholder="file">
+    <input type="color">
+    <input type="checkbox">
+    <input type="radio">
+    <input type="textarea">
+    <input type="search">
+    <input type="range">
+</form>
+
+<label for="carselect">Qual o modelo do carro?</label>
+    <select name="carmodel" id="">
+    <option value="">Selecione o modelo</option>
+    <option value="fiat">Uno</option>
+    <option value="audi">A3</option>
+</select>
+
+
+
+</body>
+</html>

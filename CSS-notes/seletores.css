@@ -1,0 +1,69 @@
+/* seletor para ID */
+#seletor {
+    color: blueviolet;
+}
+
+/* seletor para CLASS */
+.seletor {
+    color: blueviolet;
+}
+
+/* seletor de atributos */
+[title] {
+    color: blueviolet;
+}
+
+/* seletor de pseudoclasses */
+p:hover {
+    color: blueviolet;
+}
+
+/* múltiplos elementos */
+h1, p, a {
+    color: blueviolet;
+}
+
+/* combinadores */
+body h2 {
+    color: blueviolet;
+}
+
+
+
+/*////////////////////////*/
+/* child combinator:
+seleciona o elemento que é filho direto do pai, desconsiderando todos os outros  */
+body > ul > li {
+    color: blueviolet;
+}
+/* esse código aplica a cor apenas ao primeiro li do primeiro ul */
+
+/*//////////////////////// */
+/* adjacent sibling combinator:
+Seleciona somente o elemento do lado direito que é irmão direto na hierarquia */
+h1 + p {
+    color: blueviolet;
+}
+button + button {
+    margin-left: 32px;
+}
+/* espaçamento entre dois botões */
+
+
+
+/*//////////////////////// */
+/* general sibling combinator:
+Seleciona todos os elementos irmãos */
+h1 ~ p {
+    color: blueviolet;
+}
+
+
+
+/*//////////////////////// */
+/* Seleciona todos os elementos que tenham a classe */
+ul > li [class="red"] {
+    color: blueviolet;
+}
+
+

@@ -1,0 +1,29 @@
+.flexbox {
+    display: flex; /* ativa a flexbox */
+    flex-direction: column; /* organiza em coluna */
+}
+
+
+/* muda a ordem do elemento dentro do flexbox */
+.item:nth-child(1){
+    order: 1;
+    flex: 1; /* altera a altura e largura para preenchimento do container */
+}
+
+/* define um tamanho pros elementos */
+.flexbox {
+    display: flex;
+    flex-basis: 20px;
+}
+
+/* dá ao elemento o restante do espaço disponível. Pode ser dividido e redistribuído. */
+.flexbox {
+    display: flex;
+    flex-grow: 1; 
+}
+
+/* oe elemento se encolhe ao tamanho de seu conteúdo */
+.flexbox {
+    display: flex;
+    flex-shrink: 1; 
+}

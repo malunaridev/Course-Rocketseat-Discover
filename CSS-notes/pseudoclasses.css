@@ -1,0 +1,44 @@
+/* Selecionam elementos que estiverem em um estado específico  */
+
+/* seleciona o primeiro elemento, e não importa se ele é li ou não, ele simplesmente não aplica o código se não houver um li na primeira child */
+ul li:first-child {
+    color: aqua;
+}
+
+/* seleciona o segundo p dentro de main */
+main p:nth-of-type(2) { 
+    font-weight: bold;
+}
+
+/* funciona da mesma forma que o first-child, mas dá pra selecionar a child. Se não houver, não aplica o estilo */
+article p:nth-child(3) {
+    font-weight: bold;
+}
+
+/* alterna os elementos 
+even: números pares
+odd: números ímpares */
+
+ul li:nth-child(odd) {
+    font-weight: bold;
+}
+
+/* mouse por cima */
+a:hover {
+    cursor: pointer;
+}
+
+/* para formulários: o campo ativo */
+input:focus {
+    color: aqua;
+}
+
+/* para formulários: o campo desabilitado */
+input:disabled {
+    color: aqua;
+}
+
+/* para formulários: o campo exigido */
+input:required {
+    color: aqua;
+}
