@@ -1,0 +1,33 @@
+* {
+  font-size: 62, 5%;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  width: 50rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.sidebar1 {
+  width: 10rem;
+  height: 30rem;
+  background-color: #f3f5f6;
+  border: 0.1rem solid gray;
+}
+
+.sidebar2 {
+  width: 10rem;
+  height: 30rem;
+  background-color: #ffffff;
+  border: 0.1rem solid gray;
+  flex-grow: 1;
+}

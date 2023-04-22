@@ -1,0 +1,35 @@
+* {
+  font-size: 62, 5%;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  width: 34rem;
+  height: 37rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  border: 0.1rem solid #cdd4e6;
+  -webkit-box-shadow: 0px 15px 11px -6px #cdd4e6;
+  box-shadow: 0px 15px 11px -6px #cdd4e6;
+}
+
+.picture {
+  width: 10rem;
+  height: 10rem;
+}
+
+.picture:hover {
+  animation: flip;
+  animation-duration: 2s;
+}
