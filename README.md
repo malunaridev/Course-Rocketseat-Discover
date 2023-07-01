@@ -18,9 +18,10 @@ Rocketseat Discover is a course that guides us through development, covering bac
 <br />
 <br />
 
-![Progress](assets/Readme-Progress.png)
+![Progress](assets/Readme-Progress.png) ![Progresso](./assets/Readme-Progresso.png)
 
 ![Progress bar](assets/Readme-ProgressBar.png)
+<br />
 <br />
 <br />
 <br />
